@@ -2,16 +2,14 @@
 <manifest>
 
         <!-- Remote -->
-	<remote name="clang" fetch="https://gitlab.com/nekoprjkt" />
+	<remote name="azure" fetch="https://gitlab.com/Panchajanya1999" />
 	<remote name="neo" fetch="https://github.com/neophyteprjkt" />
-	<remote name="anx" fetch="https://gitlab.com/ZorEl212" />
-
+		
         <!-- Trees -->
-        <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="neo" revision="13" clone-depth="1" />
-        <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="neo" revision="13" clone-depth="1" />
-        <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="neo" revision="main" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="clang" revision="17" clone-depth="1" />
-	<project path="vendor/lineage-priv" name="vendor_extra" remote="neo" revision="14" clone-depth="1" />
-	<project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="anx" revision="anx-ginkgo" clone-depth="1" />
+        <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="neo" revision="10" clone-depth="1" />
+        <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="neo" revision="10" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="neo" revision="10" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
+	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="neo" revision="10" clone-depth="1" />
 	
 </manifest>
